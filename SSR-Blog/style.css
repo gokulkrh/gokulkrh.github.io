@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: rgb(227, 240, 239);
 }
 
 article {
     padding-inline: 40px;
-    padding-top: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
     margin-top: 0;
     background-color: white;
     display: block;
@@ -17,6 +18,8 @@ article {
 #header {
     position: relative;
     text-align: center;
+    width: 100%;
+    height: 250px;
 }
 
 .main_title {
@@ -37,6 +40,7 @@ article {
 .paragraph_content {
     font-family: 'Montserrat';
     font-size: 20px;
+    line-height: 1.5;
 }
 
 .session_images {
