@@ -18,14 +18,15 @@ body {
 }
 
 @media only screen and (min-width: 750px) {
+    
     #header {
         position: relative;
         text-align: center;
         width: 100%;
-        height: 20%;
+        height: auto;
     }
     article {
-        padding-inline: 40px;
+        padding-inline: 4%;
         padding-top: 1px;
         padding-bottom: 20px;
         margin-top: 0;
@@ -49,6 +50,10 @@ body {
         line-height: 1.5;
         width: 87%;
     }
+    footer {
+        height: 200px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -56,10 +61,10 @@ body {
         position: relative;
         text-align: center;
         width: 100%;
-        height: 30%;
+        height: auto;
     }
     article {
-        padding-inline: 40px;
+        padding-inline: 4%;
         padding-top: 1px;
         padding-bottom: 20px;
         margin-top: 0;
@@ -70,7 +75,7 @@ body {
         width: 70%;
     }
     .para_title {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 0;
         font-family: 'Raleway', 'Calibri';
         font-size: 20px;
@@ -86,8 +91,14 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+    #header {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
     article {
-        padding-inline: 40px;
+        padding-inline: 4%;
         padding-top: 1px;
         padding-bottom: 20px;
         margin-top: 0;
@@ -97,11 +108,31 @@ body {
         margin-right: auto;
         width: 90%;
     }
+    .para_title {
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-family: 'Raleway', 'Calibri';
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .paragraph_content {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.5;
+        width: 87%;
+    }
 }
 
 @media only screen and (max-width: 380px) {
+    #header {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
     article {
-        padding-inline: 40px;
+        padding-inline: 4%;
         padding-top: 1px;
         padding-bottom: 20px;
         margin-top: 0;
@@ -110,6 +141,20 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
+    }
+    .para_title {
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-family: 'Raleway', 'Calibri';
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .paragraph_content {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 1.5;
+        width: 87%;
     }
 }
 
