@@ -1,0 +1,33 @@
+name: Update Personal Website
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          cd source
+          npm install
+
+      - name: Build React app
+        run: |
+          cd source
+          npm run build
+
+      - name: Move build to root
+        run: |
+          mv source/build/* .
