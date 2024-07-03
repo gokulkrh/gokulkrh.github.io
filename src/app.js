@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router basename="/gokulkrh.github.io">
+      <Router>
         <Routes>
           <Route path="/SSR-Blog" element={<SSRBlog />} />
         </Routes>
