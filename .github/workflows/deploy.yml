@@ -37,7 +37,7 @@ jobs:
           git pull
           git checkout -B release
           mv -f build/* .
-          rm -rf node_modules
+          rm -rf node_modules public src .gitignore package-lock.json package.json README.md
           git add .
           git commit -m 'new release boiii'
           git push -f origin release
