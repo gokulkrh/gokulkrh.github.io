@@ -3,11 +3,8 @@ html {
 }
 body {
   margin: 0;
-  height: 100%;
-}
-
-article {
   background-color: rgb(227, 240, 239);
+  height: 100%;
 }
 
 .main_title {
