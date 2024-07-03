@@ -22,12 +22,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd source
           npm install
 
       - name: Build React app
         run: |
-          cd source
           npm run build
 
       - name: Commit and push changes
@@ -38,8 +36,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git pull
           git checkout release
-          mv source/build/* .
-          rm -rf source
+          mv build/* .
           git add .
           git commit -m 'new release boiii'
           git push -f origin release
