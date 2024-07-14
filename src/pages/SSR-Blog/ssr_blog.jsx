@@ -6,7 +6,7 @@ export default function SSRBlog() {
     <Fragment>
       <div className="blog-page">
         <div id="header">
-          <img id="main_banner" src={require("./images/banner.png")} height="auto" width="100%" alt="" />
+          <img id="main_banner" src={require("../images/banner.png")} height="auto" width="100%" alt="" />
         </div>
 
         <article>
@@ -31,16 +31,16 @@ export default function SSRBlog() {
           <p className="para_title">Activities Undertaken</p>
           <p className="paragraph_content">
             <b>1.</b> Session on Cyberbullying and its impact on children.
-            <ul className="paragraph_content">
-              <li>
-                Speaker - DR.K.K.KUNHAMMAD, psychologist and an hr trainer with a masters degree and Phd in Psychology and also a PG Diploma in Counselling.
-              </li>
-              <li>Interactive session with students.</li>
-              <li>Discussed various forms of cyberbullying, and its effects on children.</li>
-              <li>Further discussed on how various people such as parents, teachers can help children who were cyberbullied.</li>
-              <li>Participation of more than 50 students.</li>
-            </ul>
           </p>
+          <ul className="paragraph_content">
+            <li>
+              Speaker - DR.K.K.KUNHAMMAD, psychologist and an hr trainer with a masters degree and Phd in Psychology and also a PG Diploma in Counselling.
+            </li>
+            <li>Interactive session with students.</li>
+            <li>Discussed various forms of cyberbullying, and its effects on children.</li>
+            <li>Further discussed on how various people such as parents, teachers can help children who were cyberbullied.</li>
+            <li>Participation of more than 50 students.</li>
+          </ul>
           <p className="paragraph_content">
             <b>2.</b> Awareness session on Cyber Misuse
           </p>
@@ -72,8 +72,8 @@ export default function SSRBlog() {
             <b>
               Posters: <br />
               <span className="media_content_poster">
-                <img className="poster" src={require("./images/session1.jpeg")} alt="" />
-                <img className="poster" src={require("./images/session2.jpeg")} alt="" />
+                <img className="poster" src={require("../images/session1.jpeg")} alt="" />
+                <img className="poster" src={require("../images/session2.jpeg")} alt="" />
                 <br />
               </span>{" "}
               <br />
@@ -81,47 +81,47 @@ export default function SSRBlog() {
               <br />
               Session 1: <br />
               <span className="media_content">
-                <img className="session_images" src={require("./images/session1_meeting1.jpeg")} height="100%" width="90%" alt="" />
-                <img className="session_images" src={require("./images/session1_meeting2.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../images/session1_meeting1.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../images/session1_meeting2.jpeg")} height="100%" width="90%" alt="" />
               </span>
               <br />
               Session 2: <br />
               <span className="media_content">
-                <img className="session_images" src={require("./images/session2_meeting1.jpeg")} height="100%" width="90%" alt="" />
-                <img className="session_images" src={require("./images/session2_meeting2.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../images/session2_meeting1.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../images/session2_meeting2.jpeg")} height="100%" width="90%" alt="" />
               </span>
             </b>
           </p>
           <p className="para_title">Obstacles Faced</p>
-          <p className="paragraph_content">
-            <ul className="paragraph_content">
-              <li>There were frequent network issues during the session by Binduraj Sir on Cyber Misuse.</li>
-              <li>We expected about more than 60 participants in our first session, but the count of participants did not reach the expected mark.</li>
-              <li>We also had difficulty in finding the second speaker for our project.</li>
-              <li>We had to change our speakers as our previous speaker was only available after 3-4 months.</li>
-            </ul>
-          </p>
+          <ul className="paragraph_content">
+            <li>There were frequent network issues during the session by Binduraj Sir on Cyber Misuse.</li>
+            <li>We expected about more than 60 participants in our first session, but the count of participants did not reach the expected mark.</li>
+            <li>We also had difficulty in finding the second speaker for our project.</li>
+            <li>We had to change our speakers as our previous speaker was only available after 3-4 months.</li>
+          </ul>
           <p className="para_title">Total Man hours for accomplishment</p>
           <p className="paragraph_content">50-60 hours</p>
           <p className="para_title">Road Ahead</p>
-          <p className="paragraph_content">
-            <ul className="paragraph_content">
-              <li>Our next focus if possible, would be to conduct more such sessions on cyber related issues.</li>
-              <li>We would like to conduct these sessions offline so that there would be more interaction between the speaker and the audience.</li>
-              <li>
-                With the help of municipal and panchayat association groups, we would like to conduct awareness sessions on cyber related topics for them and
-                thus extend these programs to a more diverse population.
-              </li>
-            </ul>
-          </p>
+          <ul className="paragraph_content">
+            <li>Our next focus if possible, would be to conduct more such sessions on cyber related issues.</li>
+            <li>We would like to conduct these sessions offline so that there would be more interaction between the speaker and the audience.</li>
+            <li>
+              With the help of municipal and panchayat association groups, we would like to conduct awareness sessions on cyber related topics for them and thus
+              extend these programs to a more diverse population.
+            </li>
+          </ul>
         </article>
         <footer>
-          <a href="www.google.com">
-            <img src={require("./images/amritalogo.png")} height="100%" width="auto" alt="" />
-          </a>
-          <a href="www.google.com">
-            <img src={require("./images/SSRLOGO.png")} height="80%" width="auto" alt="" />
-          </a>
+          <div className="footer-contents">
+            <div className="footer-uni-section">
+              <img className="footer-uni-sites" src={require("../images/amritalogo.png")} alt="" />
+              <img className="footer-uni-sites" src={require("../images/SSRLOGO.png")} alt="" />
+            </div>
+            <hr></hr>
+            <p style={{ margin: "0", color: "rgb(0,218,255)" }}>
+              website created by Gokul Krishnan, <a href="https://github.com/gokulkrh">Github</a>.
+            </p>
+          </div>
         </footer>
       </div>
     </Fragment>
