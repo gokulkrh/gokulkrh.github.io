@@ -1,0 +1,36 @@
+.floating-contact {
+    position: fixed;
+    /* width: 3%; */
+    bottom: 1%;
+    left: 1%;
+    background: #ffffff00;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.floating-contact a {
+    /* color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s ease; */
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.floating-contact a img {
+    /* color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s ease; */
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.floating-contact a:hover {
+    /* color: #ffcc00; */
+}
