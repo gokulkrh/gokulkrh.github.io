@@ -6,7 +6,7 @@ export default function SSRBlog() {
     <Fragment>
       <div className="blog-page">
         <div id="header">
-          <img id="main_banner" src={require("../images/banner.png")} height="auto" width="100%" alt="" />
+          <img id="main_banner" src={require("../../images/banner.png")} height="auto" width="100%" alt="" />
         </div>
 
         <article>
@@ -72,8 +72,8 @@ export default function SSRBlog() {
             <b>
               Posters: <br />
               <span className="media_content_poster">
-                <img className="poster" src={require("../images/session1.jpeg")} alt="" />
-                <img className="poster" src={require("../images/session2.jpeg")} alt="" />
+                <img className="poster" src={require("../../images/session1.jpeg")} alt="" />
+                <img className="poster" src={require("../../images/session2.jpeg")} alt="" />
                 <br />
               </span>{" "}
               <br />
@@ -81,14 +81,14 @@ export default function SSRBlog() {
               <br />
               Session 1: <br />
               <span className="media_content">
-                <img className="session_images" src={require("../images/session1_meeting1.jpeg")} height="100%" width="90%" alt="" />
-                <img className="session_images" src={require("../images/session1_meeting2.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../../images/session1_meeting1.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../../images/session1_meeting2.jpeg")} height="100%" width="90%" alt="" />
               </span>
               <br />
               Session 2: <br />
               <span className="media_content">
-                <img className="session_images" src={require("../images/session2_meeting1.jpeg")} height="100%" width="90%" alt="" />
-                <img className="session_images" src={require("../images/session2_meeting2.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../../images/session2_meeting1.jpeg")} height="100%" width="90%" alt="" />
+                <img className="session_images" src={require("../../images/session2_meeting2.jpeg")} height="100%" width="90%" alt="" />
               </span>
             </b>
           </p>
@@ -114,8 +114,8 @@ export default function SSRBlog() {
         <footer>
           <div className="footer-contents">
             <div className="footer-uni-section">
-              <img className="footer-uni-sites" src={require("../images/amritalogo.png")} alt="" />
-              <img className="footer-uni-sites" src={require("../images/SSRLOGO.png")} alt="" />
+              <img className="footer-uni-sites" src={require("../../images/amritalogo.png")} alt="" />
+              <img className="footer-uni-sites" src={require("../../images/SSRLOGO.png")} alt="" />
             </div>
             <hr></hr>
             <p style={{ margin: "0", color: "rgb(0,218,255)" }}>
