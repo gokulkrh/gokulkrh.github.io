@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dffbbc78.css",
+    "main.js": "/static/js/main.bfbdcb8f.js",
+    "static/media/session2_meeting2.jpeg": "/static/media/session2_meeting2.632fb3b81aec00b9b238.jpeg",
+    "static/media/session2_meeting1.jpeg": "/static/media/session2_meeting1.e8fe060cffd981a249a0.jpeg",
+    "static/media/session1.jpeg": "/static/media/session1.7de2918acc571f0ce0e2.jpeg",
+    "static/media/session2.jpeg": "/static/media/session2.72e0a0e66727793ddd10.jpeg",
+    "static/media/session1_meeting2.jpeg": "/static/media/session1_meeting2.e3368b6e4c46e14032ea.jpeg",
+    "static/media/session1_meeting1.jpeg": "/static/media/session1_meeting1.d4c554558c5d803381c8.jpeg",
+    "static/media/SSRLOGO.png": "/static/media/SSRLOGO.657b9a36dfc88aedfa3c.png",
+    "static/media/amritalogo.png": "/static/media/amritalogo.59c8541778a174408e87.png",
+    "static/media/banner.png": "/static/media/banner.5ab7ddfc3b3a1431788f.png",
+    "index.html": "/index.html",
+    "main.dffbbc78.css.map": "/static/css/main.dffbbc78.css.map",
+    "main.bfbdcb8f.js.map": "/static/js/main.bfbdcb8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dffbbc78.css",
+    "static/js/main.bfbdcb8f.js"
+  ]
+}
