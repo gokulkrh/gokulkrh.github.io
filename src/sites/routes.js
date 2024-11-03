@@ -1,7 +1,7 @@
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import SSRBlog from "./blog/posts/ssr/ssr_blog";
 import AmfossTasks from "./blog/posts/technology/personal_projects/amfoss-tasks/amfoss_tasks";
-import Portfolio from "./Portfolio/potfolio";
+// import Portfolio from "./Portfolio/potfolio";
 
 const router = createHashRouter([
 	{

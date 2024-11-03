@@ -1,6 +1,5 @@
 import { React, Fragment } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../../images/amritalogo.png";
 import "./style.css";
 
 export default function AmfossTaskBlog() {
