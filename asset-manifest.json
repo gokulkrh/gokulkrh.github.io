@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0250cd09.css",
+    "main.js": "/static/js/main.ec69b0e2.js",
+    "static/media/session2_meeting2.jpeg": "/static/media/session2_meeting2.632fb3b81aec00b9b238.jpeg",
+    "static/media/session2_meeting1.jpeg": "/static/media/session2_meeting1.e8fe060cffd981a249a0.jpeg",
+    "static/media/session1.jpeg": "/static/media/session1.7de2918acc571f0ce0e2.jpeg",
+    "static/media/session2.jpeg": "/static/media/session2.72e0a0e66727793ddd10.jpeg",
+    "static/media/session1_meeting2.jpeg": "/static/media/session1_meeting2.e3368b6e4c46e14032ea.jpeg",
+    "static/media/session1_meeting1.jpeg": "/static/media/session1_meeting1.d4c554558c5d803381c8.jpeg",
+    "static/media/SSRLOGO.png": "/static/media/SSRLOGO.657b9a36dfc88aedfa3c.png",
+    "static/media/amritalogo.png": "/static/media/amritalogo.59c8541778a174408e87.png",
+    "static/media/instagram.png": "/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/banner.png": "/static/media/banner.5ab7ddfc3b3a1431788f.png",
+    "static/media/twitter.png": "/static/media/twitter.93ac3f9a344ecd5d01a4.png",
+    "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
+    "index.html": "/index.html",
+    "main.0250cd09.css.map": "/static/css/main.0250cd09.css.map",
+    "main.ec69b0e2.js.map": "/static/js/main.ec69b0e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0250cd09.css",
+    "static/js/main.ec69b0e2.js"
+  ]
+}
