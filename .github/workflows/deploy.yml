@@ -40,5 +40,5 @@ jobs:
           mv -f src/sites/Games .
           rm -rf node_modules public src .gitignore package-lock.json package.json README.md
           git add .
-          git commit -m 'new release boiii'
+          git commit -m 'new release yayyy'
           git push -f origin release
