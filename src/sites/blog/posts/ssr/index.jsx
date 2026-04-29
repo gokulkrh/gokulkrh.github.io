@@ -1,14 +1,14 @@
-import { React, Fragment } from "react";
+import { Fragment } from "react";
 import "./style.css";
 
-export default function AmfossTasks() {
+export default function SSRBlog() {
 	return (
 		<Fragment>
 			<div className="blog-page">
 				<div id="header">
 					<img
 						id="main_banner"
-						src={require("../../images/banner.png")}
+						src={require("./images/banner.png")}
 						height="auto"
 						width="100%"
 						alt=""
@@ -106,12 +106,12 @@ export default function AmfossTasks() {
 							<span className="media_content_poster">
 								<img
 									className="poster"
-									src={require("../../images/session1.jpeg")}
+									src={require("./images/session1.jpeg")}
 									alt=""
 								/>
 								<img
 									className="poster"
-									src={require("../../images/session2.jpeg")}
+									src={require("./images/session2.jpeg")}
 									alt=""
 								/>
 								<br />
@@ -123,14 +123,14 @@ export default function AmfossTasks() {
 							<span className="media_content">
 								<img
 									className="session_images"
-									src={require("../../images/session1_meeting1.jpeg")}
+									src={require("./images/session1_meeting1.jpeg")}
 									height="100%"
 									width="90%"
 									alt=""
 								/>
 								<img
 									className="session_images"
-									src={require("../../images/session1_meeting2.jpeg")}
+									src={require("./images/session1_meeting2.jpeg")}
 									height="100%"
 									width="90%"
 									alt=""
@@ -141,14 +141,14 @@ export default function AmfossTasks() {
 							<span className="media_content">
 								<img
 									className="session_images"
-									src={require("../../images/session2_meeting1.jpeg")}
+									src={require("./images/session2_meeting1.jpeg")}
 									height="100%"
 									width="90%"
 									alt=""
 								/>
 								<img
 									className="session_images"
-									src={require("../../images/session2_meeting2.jpeg")}
+									src={require("./images/session2_meeting2.jpeg")}
 									height="100%"
 									width="90%"
 									alt=""
@@ -200,12 +200,12 @@ export default function AmfossTasks() {
 						<div className="footer-uni-section">
 							<img
 								className="footer-uni-sites"
-								src={require("../../images/amritalogo.png")}
+								src={require("./images/amritalogo.png")}
 								alt=""
 							/>
 							<img
 								className="footer-uni-sites"
-								src={require("../../images/SSRLOGO.png")}
+								src={require("./images/SSRLOGO.png")}
 								alt=""
 							/>
 						</div>

@@ -1,5 +1,4 @@
-import { React, Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Fragment } from "react";
 import "./style.css";
 
 export default function AmfossTaskBlog() {
@@ -269,69 +268,6 @@ export default function AmfossTaskBlog() {
 						</a>
 					</p>
 				</article>
-
-				<footer>
-					<div className="footer">
-						<div className="footer-column">
-							<div className="footer-about-section">
-								<p>
-									About: <br />
-									Extracting Audience Feedback from User Comments using
-									multilabel Emotion recognition and Text Summarization <br />
-									Final Year Project group 10b <br />
-									Gokul Krishnan G <br />
-									AM.EN.U4CSE19321 <br />
-								</p>
-							</div>
-							<div className="socials">
-								<div className="media-link-icons">
-									<h3>Find me:</h3>
-									<Link>
-										<img
-											className="footer-media-icons"
-											src={require("../../../../../../images/facebook.png")}
-											alt=""
-										/>
-									</Link>
-									<Link>
-										<img
-											className="footer-media-icons"
-											src={require("../../../../../../images/twitter.png")}
-											alt=""
-										/>
-									</Link>
-									<Link>
-										<img
-											className="footer-media-icons"
-											src={require("../../../../../../images/instagram.png")}
-											alt=""
-										/>
-									</Link>
-									<Link>
-										<img
-											className="footer-media-icons"
-											src={require("../../../../../../images/youtube.png")}
-											alt=""
-										/>
-									</Link>
-								</div>
-							</div>
-							{/* <Contact /> */}
-						</div>
-						<div className="disclaimer">
-							<p>
-								Please Note: The content displayed by the website is
-								auto-generated using publicly available data such as comments.
-								<br />
-								Any crass or offensive content displayed by the website is
-								purely coincidental.
-								<br />
-								They are not a representation of the website creator's beliefs
-								or views.
-							</p>
-						</div>
-					</div>
-				</footer>
 			</div>
 		</Fragment>
 	);
