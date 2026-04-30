@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.b92859bd.js",
+    "static/css/959.0d47ded0.chunk.css": "/static/css/959.0d47ded0.chunk.css",
+    "static/js/959.c1ccafc0.chunk.js": "/static/js/959.c1ccafc0.chunk.js",
+    "static/css/697.0d47ded0.chunk.css": "/static/css/697.0d47ded0.chunk.css",
+    "static/js/697.2f9730d6.chunk.js": "/static/js/697.2f9730d6.chunk.js",
+    "static/media/session2_meeting2.jpeg": "/static/media/session2_meeting2.632fb3b81aec00b9b238.jpeg",
+    "static/media/session2_meeting1.jpeg": "/static/media/session2_meeting1.e8fe060cffd981a249a0.jpeg",
+    "static/media/session1.jpeg": "/static/media/session1.7de2918acc571f0ce0e2.jpeg",
+    "static/media/session2.jpeg": "/static/media/session2.72e0a0e66727793ddd10.jpeg",
+    "static/media/session1_meeting2.jpeg": "/static/media/session1_meeting2.e3368b6e4c46e14032ea.jpeg",
+    "static/media/session1_meeting1.jpeg": "/static/media/session1_meeting1.d4c554558c5d803381c8.jpeg",
+    "static/media/SSRLOGO.png": "/static/media/SSRLOGO.657b9a36dfc88aedfa3c.png",
+    "static/media/amritalogo.png": "/static/media/amritalogo.59c8541778a174408e87.png",
+    "static/media/banner.png": "/static/media/banner.5ab7ddfc3b3a1431788f.png",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.b92859bd.js.map": "/static/js/main.b92859bd.js.map",
+    "959.0d47ded0.chunk.css.map": "/static/css/959.0d47ded0.chunk.css.map",
+    "959.c1ccafc0.chunk.js.map": "/static/js/959.c1ccafc0.chunk.js.map",
+    "697.0d47ded0.chunk.css.map": "/static/css/697.0d47ded0.chunk.css.map",
+    "697.2f9730d6.chunk.js.map": "/static/js/697.2f9730d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b92859bd.js"
+  ]
+}
