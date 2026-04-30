@@ -2,7 +2,7 @@ export const blogPosts = [
   {
     path: "amfoss-tasks",
     lazy: async () => {
-      const module = await import("./posts/technology/personal_projects/amfoss-tasks");
+      const module = await import("./posts/amfoss-tasks");
       return { Component: module.default };
     }
   },

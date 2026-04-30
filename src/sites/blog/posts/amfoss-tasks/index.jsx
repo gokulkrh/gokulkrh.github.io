@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./style.css";
+import "../style.css";
 
 export default function AmfossTaskBlog() {
 	return (
@@ -20,7 +20,7 @@ export default function AmfossTaskBlog() {
 					<p className="paragraph_content">
 						Freshers interested in joining the club usually have to solve some
 						tasks as an entry assignment, which will be evaluated, followed by
-						an interview with the already existing members.
+						an interview with the team members.
 						<br />
 						<br />
 						<b>Task List: </b>
