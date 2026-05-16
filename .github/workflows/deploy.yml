@@ -36,7 +36,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git pull
           git checkout -B release
-          mv -f build/* .
+          mv -f dist/* .
           mv -f src/sites/Games .
           rm -rf node_modules public src .gitignore package-lock.json package.json README.md
           git add .
